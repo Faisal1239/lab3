@@ -38,7 +38,7 @@ class Sorting
         }
         System.out.println();
     }
-    static void selectionSort(int arr[], int n)
+    public static void selectionSort(int arr[], int n)
     {
         int i, j, min_idx;
 
@@ -56,6 +56,10 @@ class Sorting
         }
     }
 
+
+    public void sort(int [] arr, int n){
+        insertionSort(arr,n);
+    }
 
 }
 
