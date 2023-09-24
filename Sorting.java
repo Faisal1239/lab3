@@ -57,10 +57,12 @@ class Sorting
     }
 
 
-    public void sort(int [] arr, int n){
+    public void sort1(int [] arr, int n){
         insertionSort(arr,n);
     }
-
+    public void sort2(int [] arr, int n){
+        selectionSort(arr,n);
+    }
 }
 
 
